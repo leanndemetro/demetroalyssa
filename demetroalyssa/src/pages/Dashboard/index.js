@@ -17,6 +17,7 @@ function Dashboard() {
                      third-party APIs, Progressive Web Applications, MySQL, API design, and the 
                      MERN stack (MongoDB, Express.js, React.js, Node.js)
                 </p>
+                <br></br>
                 <a className="aboutLink" href="About">Learn More</a>
     </div>
 

@@ -4,8 +4,10 @@ import "./style.css"
 
 function Contact() {
   return (
-<div>
-  <p>contact</p>
+<div className="contactDiv">
+  <p className="contactTitle">Contact</p>
+  <p className="email">demetroalyssa@gmail.com</p>
+  <p className="number">(407) 885-9149</p>
 </div>
   
    
