@@ -9,7 +9,7 @@ class Navbar extends Component {
       <div className="navbar">
         <br></br>
         <hr></hr>
-        <p><a className="navNameText" href="/">Alyssa De Metro</a> <a className="navLinks" href="/About">About</a> <a className="navLinks" href="/Portfolio">Portfolio</a> <a className="navLinks" href="/Contact">Contact</a></p>
+        <p><a className="navNameText" href="/">Alyssa De Metro</a> <span className="linkSpan"><a className="navLinks" href="/About">About</a> <a className="navLinks" href="/Portfolio">Portfolio</a> <a className="navLinks" href="/Contact">Contact</a></span></p>
       </div>
 
     );

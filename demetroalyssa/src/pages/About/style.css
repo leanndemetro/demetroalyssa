@@ -25,7 +25,7 @@
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) { 
     .aboutTextDiv {
-        width: 100%;
+        width: 90%;
     }
     .aboutText {
         font-size: 25px;
