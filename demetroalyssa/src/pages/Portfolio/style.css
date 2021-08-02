@@ -8,6 +8,10 @@
     
 }
 
+.certImg:hover {
+opacity: 0.5;
+}
+
 .imgTitle {
     font-size: 25px;
     font-style: italic;
