@@ -20,6 +20,19 @@
     opacity: 0.7;
 }
 
+.resumeLink {
+    text-decoration: none;
+    color: black;
+    
+}
+.resumeLink:hover {
+    font-style: italic;
+    
+}
+
+.resumeText {
+    font-size: 27px;
+}
 @media only screen 
     and (device-width : 375px) 
     and (device-height : 812px) 

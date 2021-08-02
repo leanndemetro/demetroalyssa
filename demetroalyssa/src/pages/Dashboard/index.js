@@ -10,7 +10,7 @@ function Dashboard() {
       <img className="dashImg" src="https://i.imgur.com/fPkZOhV.jpg"></img>
      <br></br>
      <br></br>
-     <p>Alyssa DeMetro is a freelance Web-Developer based out of Central Florida.
+     <p className="dashText">Alyssa DeMetro is a freelance Web-Developer based out of Central Florida.
                     
                     She works with a diverse range of technologies including HTML, CSS, Javascript,
                     

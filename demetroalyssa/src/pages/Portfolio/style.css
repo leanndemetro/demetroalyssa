@@ -1,16 +1,55 @@
 .certImg {
-    width: 48%;
-    margin: 5px;
+    width: 45%;
+    margin: 20px;
+    margin-top: 5%;
+    margin-bottom: 70px;
     filter: grayscale(100%);
+    border-radius: 2px;
     
 }
+
+.imgTitle {
+    font-size: 25px;
+    font-style: italic;
+}
+.portfolio {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    text-align: left;
+  }
 
 @media only screen 
     and (device-width : 375px) 
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) { 
    .certImg {
-       width: 47%;
-       margin-top: 15px;
+       width: 95%;
+margin-bottom: -20px;
+margin-top: 40px;
    }
+   .portfolio {
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+.bottom-left {
+    position: relative;
+    bottom: -30px;
+    margin: 5px;
+}
+
+
+
     }

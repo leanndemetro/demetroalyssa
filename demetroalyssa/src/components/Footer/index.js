@@ -7,6 +7,7 @@ class Footer extends Component {
         return (
             <span className="footer">
             <hr></hr>
+            <br></br>
           </span>
         );
     }
