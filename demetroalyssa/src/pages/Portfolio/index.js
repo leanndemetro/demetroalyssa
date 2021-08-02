@@ -23,7 +23,7 @@ function Portfolio() {
         <a rel="noreferrer" target="_blank" href="https://compost-incorp.herokuapp.com/"><img className="certImg" alt="growOrlando" src="https://i.imgur.com/zWEZD0K.jpg"></img></a>
         <div class="bottom-left"><span className="imgTitle">Grow Orlando</span>
           <br></br>
-          Grow Orlando is a website built for the Grow Orlando organization using React.js, JavaScript, MDBootstrap and more.
+          Grow Orlando is a website built for the Grow Orlando non-profit organization. This application uses React.js, JavaScript, MDBootstrap and more.
         </div>
       </span>
       <span className="container">
@@ -44,7 +44,7 @@ function Portfolio() {
         <a rel="noreferrer" target="_blank" href="https://safe-brook-64265.herokuapp.com/"><img className="certImg" alt="noteTaker" src="https://i.imgur.com/rMPJZ5g.jpg"></img></a>
         <div class="bottom-left"><span className="imgTitle">Note Taker</span>
           <br></br>
-          The Note Taker application allows users to create, save or delete notes. This app uses Javascript, Express.js, Path, Ajax,  and Jquery.
+          The Note Taker application allows users to create their own notes, and save or delete them both on and offline. This app uses Javascript, Express.js, Path, Ajax,  and Jquery.
         </div>
       </span>
     </div>
