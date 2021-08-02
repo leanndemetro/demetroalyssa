@@ -1,0 +1,30 @@
+.navbar {
+  width: 100%;
+}
+
+
+
+
+.navNameText {
+  font-size: 30px;
+  margin-left: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.navNameText:hover {
+  opacity: 0.7;
+}
+
+.navLinks {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.navLinks:hover {
+  font-style: italic;
+}
+
+
