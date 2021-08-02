@@ -1,0 +1,19 @@
+{
+  "name": "demetroalyssa",
+  "version": "1.0.0",
+  "description": "My portfolio built in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leanndemetro/demetroalyssa.git"
+  },
+  "author": "Alyssa DeMetro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leanndemetro/demetroalyssa/issues"
+  },
+  "homepage": "https://github.com/leanndemetro/demetroalyssa#readme"
+}
