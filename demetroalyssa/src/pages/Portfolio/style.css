@@ -78,7 +78,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
  .bottom-left {
      position: relative;
      bottom: -30px;
-     margin: 5px;
+     margin-bottom: 20px;
  }
 }
 
