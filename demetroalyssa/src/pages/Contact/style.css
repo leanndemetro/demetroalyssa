@@ -1,6 +1,6 @@
 .contactTitle {
     margin-left: 25px;
-    margin-top: 30%;
+    margin-top: 20%;
     font-size: 50px;
 }
 
@@ -17,4 +17,70 @@
 
 .contactDiv {
     margin-bottom: 360px;
+}
+
+
+/* iphone x */
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+        .contactTitle {
+            margin-top: 50%;
+        }
+        .contactDiv {
+            margin-bottom: 320px;
+        }
+    }
+
+    /*  iphone 4 Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .contactTitle {
+        margin-top: 50%;
+    }
+    .contactDiv {
+        margin-bottom: 320px;
+    }
+}
+
+/* iphone 5 */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .contactTitle {
+        margin-top: 50%;
+    }
+    .contactDiv {
+        margin-bottom: 320px;
+    }
+}
+
+/* iphone 6 7 8 */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .contactTitle {
+        margin-top: 50%;
+    }
+    .contactDiv {
+        margin-bottom: 320px;
+    }
+}
+
+/* ipohne 6 7 8 + */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .contactTitle {
+        margin-top: 50%;
+    }
+    .contactDiv {
+        margin-bottom: 320px;
+    }
 }
