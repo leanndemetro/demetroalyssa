@@ -1,8 +1,25 @@
+
+
+.imgDivLeft {
+    float: left;
+    width: 50%;
+    position: relative;
+    margin-left: -18px;
+}
+.imgDivRight {
+    float: right;
+    width: 50%;
+    position: relative;
+}
+
+.imgText {
+    margin-left: 20px;
+    width: 100%;
+}
 .certImg {
-    width: 45%;
-    margin: 20px;
-    margin-top: 5%;
-    margin-bottom: 70px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
     filter: grayscale(100%);
     border-radius: 2px;
     
@@ -18,67 +35,32 @@ opacity: 0.5;
 }
 .portfolio {
     margin-top: 5%;
-    margin-bottom: 10%;
+    padding: 10px;
+    margin-bottom: 360px;
 }
 
-.container {
-    position: relative;
-    text-align: center;
-    color: black;
-  }
-  
-  .bottom-left {
-    position: absolute;
-    bottom: -30px;
-    left: 20px;
-    text-align: left;
-    display: inline-block;
 
-  }
 
+/* iphone x */
 @media only screen 
     and (device-width : 375px) 
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) { 
-   .certImg {
-       width: 95%;
-margin-bottom: -20px;
-margin-top: 40px;
-   }
-   .portfolio {
-    margin-top: 10%;
-    margin-bottom: 20%;
-}
-
-.bottom-left {
-    position: relative;
-    bottom: -30px;
-    margin: 5px;
-}
-
-
-
+        .workd {
+            margin-top: 20px;
+        }
+       
+       
     }
 
-         /*  iphone 4 Portrait and Landscape */
+    /*  iphone 4 Portrait and Landscape */
 @media only screen 
 and (min-device-width: 320px) 
 and (max-device-width: 480px)
 and (-webkit-min-device-pixel-ratio: 2) {
-    .certImg {
-        width: 95%;
- margin-bottom: -20px;
- margin-top: 40px;
-    }
-    .portfolio {
-     margin-top: 10%;
-     margin-bottom: 20%;
- }
- 
- .bottom-left {
-     position: relative;
-     bottom: -30px;
-     margin-bottom: 20px;
+   
+ .workd {
+    margin-top: 40px;
  }
 }
 
@@ -87,22 +69,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    .certImg {
-        width: 95%;
- margin-bottom: -20px;
- margin-top: 40px;
+    .workd {
+        margin-top: 40px;
     }
-    .portfolio {
-     margin-top: 10%;
-     margin-bottom: 20%;
- }
- 
- .bottom-left {
-     position: relative;
-     bottom: -30px;
-     margin: 5px;
- }
-   
 }
 
 /* iphone 6 7 8 */
@@ -110,21 +79,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
-    .certImg {
-        width: 95%;
- margin-bottom: -20px;
- margin-top: 40px;
+    .workd {
+        margin-top: 20px;
     }
-    .portfolio {
-     margin-top: 10%;
-     margin-bottom: 20%;
- }
- 
- .bottom-left {
-     position: relative;
-     bottom: -30px;
-     margin: 5px;
- }
 }
 
 /* ipohne 6 7 8 + */
@@ -132,19 +89,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-    .certImg {
-        width: 95%;
- margin-bottom: -20px;
- margin-top: 40px;
+    .workd {
+        margin-top: 40px;
     }
-    .portfolio {
-     margin-top: 10%;
-     margin-bottom: 20%;
- }
- 
- .bottom-left {
-     position: relative;
-     bottom: -30px;
-     margin: 5px;
- }
 }

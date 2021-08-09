@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css"
+import Footer from "../../components/Footer";
 
 
 
@@ -22,7 +23,7 @@ function About() {
                 </div>
 
 
-
+<Footer />
  </div>
  
      

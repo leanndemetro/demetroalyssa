@@ -4,7 +4,6 @@ import Dashboard from "./pages/Dashboard/index";
 import Contact from "./pages/Contact/index";
 import About from "./pages/About/index";
 import Portfolio from "./pages/Portfolio/index";
- import Footer from "./components/Footer/index"
 import Navbar from "./components/Navbar/index";
 
 
@@ -30,7 +29,6 @@ function App() {
             <Portfolio />
           </Route>
           </Switch>
-          <Footer />
       </div>
     </Router>
   );

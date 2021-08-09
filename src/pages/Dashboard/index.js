@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css"
+import Footer from "../../components/Footer";
 
 function Dashboard() {
   return (
@@ -19,6 +20,11 @@ function Dashboard() {
                 </p>
                 <br></br>
                 <a className="aboutLink" href="About">Learn More</a>
+               <br></br>
+               <br></br>
+               <br></br>
+               <br></br>
+               <Footer />
     </div>
 
 
